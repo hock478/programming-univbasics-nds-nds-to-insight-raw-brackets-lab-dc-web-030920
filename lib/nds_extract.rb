@@ -13,7 +13,7 @@ def directors_totals(nds)
    column_index = 0 
      while column_index < nds[row_index][:movies].count do 
       
-      new_hash[directors_name] += nds[row_index][:movies][:worldwide_gross]
+      new_hash[directors_name] += nds[row_index][:movies][column_index][:worldwide_gross]
       column_index += 1 
     end
     row_index += 1 
