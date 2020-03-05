@@ -10,7 +10,6 @@ def directors_totals(nds)
   
    directors_name = nds[row_index][:name]
    new_hash[directors_name] = 0
-   sub_total = 0 
    column_index = 0 
      while column_index < nds[row_index][:movies].length do 
       
