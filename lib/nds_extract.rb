@@ -6,7 +6,7 @@ def directors_totals(nds)
  new_hash = {}
   row_index = 0 
 
-  while row_index < nds[row_index][:name].length do 
+  while row_index < nds.count do 
   
    directors_name = nds[row_index][:name]
    sub_total = 0 
